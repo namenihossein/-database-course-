@@ -1,0 +1,10 @@
+-- SQL Exercise 01: Create Tables
+-- This script creates a simple table for students.
+
+CREATE TABLE students (
+    student_id INT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    major VARCHAR(50),
+    enrollment_date DATE
+);
